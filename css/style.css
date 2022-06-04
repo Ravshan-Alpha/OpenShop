@@ -1,0 +1,83 @@
+@import url(fonts.css);
+/* --------------------ROOT START-------------------- */
+:root {
+    --fontFirst: "Noto Sans";
+    --scrollBg: #313131;
+    --bodyBg: #FFF;
+    --colorBgText: #313131;
+    --navFooterBg: #313131;
+    
+    
+    
+    --colorWhite: #FFF;
+    --colorBlack: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* FIXED cross platform (min-width: 1200px;) */
+    font-family: var(--fontFirst);
+    background: var(--bodyBg);
+    color: var(--colorBgText);
+}
+.container {
+    /* FIXED cross platform (width: 1200px;) */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--scrollBg);
+    border-radius: 3px;
+}
+.text-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+}
+.text-limit:active {
+    -webkit-line-clamp: unset;
+}
+/* --------------------ROOT END-------------------- */
+
+/* --------------------NAV START-------------------- */
+/* --------------------NAV END-------------------- */
+
+/* --------------------ROOT END-------------------- */
+/* --------------------ROOT END-------------------- */
+
+/* --------------------HEADER START-------------------- */
+/* --------------------NAV START-------------------- */
+/* --------------------NAV END-------------------- */
+/* --------------------HEADER END-------------------- */
+
+/* --------------------MAIN START-------------------- */
+/* ----------SECTION ONE---------- */
+/* ----------SECTION TWO---------- */
+/* ----------SECTION THREE---------- */
+/* ----------SECTION FOUR---------- */
+/* ----------SECTION FIVE---------- */
+/* ----------SECTION SIX---------- */
+/* --------------------MAIN END-------------------- */
+
+/* --------------------FOOTER START-------------------- */
+/* --------------------FOOTER END-------------------- */

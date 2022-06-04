@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --scrollBg: #FFF;
+        --bodyBg: #313131;
+        --colorBgText: #FFF;
+        --navFooterBg: #0C0C0C;
+    }
+  }
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        max-width: 540px;
+    }
+}
