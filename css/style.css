@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: inline-block;
 }
 
-.row:hover .service__dropdown {
+.dropdown:hover .service__dropdown {
     transform: rotateX(180deg);
 }
 /* --------------------SERVICE END-------------------- */
