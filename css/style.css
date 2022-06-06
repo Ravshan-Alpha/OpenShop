@@ -6,6 +6,9 @@
     --bodyBg: #FFF;
     --colorBgText: #313131;
     --navFooterBg: #313131;
+    --serviceIconColor: #FFF;
+    --linkColor: #FFF;
+    --serivceBg: #313131;
     
     
     
@@ -39,6 +42,7 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+    text-align: center;
 }
 ::-webkit-scrollbar {
     width: 6px;
@@ -62,12 +66,33 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 /* --------------------ROOT END-------------------- */
+/* --------------------SERVICE START-------------------- */
+.service {
+    background: var(--serivceBg);
+}
+.service__icon {
+    color: var(--serviceIconColor);
+    font-size: 20px;
+}
+.service__dropdown {
+    color: var(--serviceIconColor);
+    font-size: 20px;
+}
+.service__link {
+    border: none;
+    background: none;
+    color: var(--linkColor);
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.service__dropdown
+/* --------------------SERVICE END-------------------- */
 
 /* --------------------NAV START-------------------- */
 /* --------------------NAV END-------------------- */
 
-/* --------------------ROOT END-------------------- */
-/* --------------------ROOT END-------------------- */
 
 /* --------------------HEADER START-------------------- */
 /* --------------------NAV START-------------------- */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +10,65 @@
 
     <!-- RESPONSIVE cross platform (elastik). Delet all fixed value(px) and use it in %. 4k projects and no much containers-->
     <!-- <meta name="viewport" content="width=device-width"> -->
-    
+
     <!-- ADAPTIVE cross platform (with breakpoint media.css rules) -->
-    
+
     <!-- RESPONSIVE-ADAPTIVE cross platform (elastik with breakpoint). 4k and for phones-->
     <!-- <meta name="viewport" content="width=device-width"> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    
+
     <title>Open Shop</title>
 </head>
+
 <body>
-    <header class="header">
-        <a href="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, vero.</a>
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate totam a qui cum error omnis beatae earum delectus, quos quidem, aperiam alias velit odit itaque ut tenetur expedita suscipit rerum, ipsam maiores. Animi fugit molestias amet sapiente vitae ut dolorem sequi error repudiandae nam dolores reiciendis iure assumenda numquam reprehenderit atque, quis voluptates dolor aspernatur repellat. Obcaecati velit quidem illo culpa deleniti quae illum, temporibus, necessitatibus perspiciatis nulla, veniam porro repellendus labore placeat possimus earum saepe autem maxime iste excepturi et maiores. Nobis quibusdam atque ullam nostrum harum repellat officia soluta debitis architecto dignissimos aperiam, at tenetur illum, voluptatibus facilis?</p>
-    </header>
+    <nav class="service">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-1">
+                    <div class="dropdown">
+                        <button class="service__link" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            English
+                            <span class="iconify service__dropdown service__icon" data-icon="dashicons:arrow-down-alt2"
+                                data-rotate="180deg"></span>
+                        </button>
+                        <ul class="dropdown-menu ms-auto service__menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">O'zbekcha</a></li>
+                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="tel:+998909524421" class="service__link">
+                        <span class="iconify service__icon" data-icon="ic:outline-call"></span>
+                        (90) 952-4421
+                    </a>
+                </div>
+                <div class="col-1">
+                    <a href="service__link" class="service__link">
+                        <span class="iconify service__icon" data-icon="ion:person-outline"></span>
+                        Sign in
+                    </a>
+                </div>
+                <div class="col-1">
+                    <a href="service__link" class="service__link">
+                        <span class="iconify service__icon" data-icon="clarity:shopping-cart-line"></span>
+                        Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header"></header>
     <main class="main"></main>
     <footer class="footer"></footer>
 
+
+
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
