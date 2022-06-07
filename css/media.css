@@ -6,7 +6,25 @@
         --navFooterBg: #0C0C0C;
     }
   }
-@media (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media (max-width: 1200px) {
     .container {
         max-width: 960px;
     }
@@ -25,4 +43,4 @@
     .container {
         max-width: 540px;
     }
-}
+} */
