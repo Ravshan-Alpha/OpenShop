@@ -9,7 +9,13 @@
     --serviceIconColor: #FFF;
     --linkColor: #FFF;
     --serivceBg: #313131;
-    
+    --dropDownLang: #ABABAB;
+    --dropActive: #313131;
+    --dropBg: #FFF;
+
+
+    --borderSearch: #313131;
+    --btnSearchBg: #313131;
     
     
     --colorWhite: #FFF;
@@ -91,14 +97,60 @@ h1, h2, h3, h4, h5, h6, p {
 .service__link.show .service__dropdown {
     transform: rotateX(180deg);
 }
+.dropdown-menu {
+    min-width: 0;
+}
+.dropdown-menu.show {
+    padding: 0;
+}
+.downline {
+    height: 1px;
+    background: #C4C4C4;
+    width: 70px;
+    margin: auto;
+}
+.service .dropdown-menu {
+    border-radius: 0;
+    background: var(--dropBg);
+}
+.dropdown-item {
+    color: var(--dropDownLang);
+}
+.dropdown-item:hover {
+    background: var(--dropBg);
+    color: var(--dropActive);
+}
 /* --------------------SERVICE END-------------------- */
 
 /* --------------------NAV START-------------------- */
 /* --------------------NAV END-------------------- */
 
-
 /* --------------------HEADER START-------------------- */
 /* --------------------NAV START-------------------- */
+.header {
+    margin-top: 25px;
+}
+form * {
+    border: none;
+    outline: none;
+}
+.search__box {
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid var(--borderSearch);
+}
+.header__search {
+    font-size: 14px;
+    padding: 15px;
+    background: var(--btnSearchBg);
+    border: none;
+    color: var(--colorWhite)
+}
+.search__icon {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 5px;
+}
 /* --------------------NAV END-------------------- */
 /* --------------------HEADER END-------------------- */
 

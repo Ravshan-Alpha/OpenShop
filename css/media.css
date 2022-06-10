@@ -3,7 +3,13 @@
         --scrollBg: #FFF;
         --bodyBg: #313131;
         --colorBgText: #FFF;
+        --serivceBg: #0C0C0C;
         --navFooterBg: #0C0C0C;
+        --dropBg: #0C0C0C;
+        --dropActive: #FFF;
+
+
+        --borderSearch: #FFF;
     }
   }
 
@@ -24,7 +30,7 @@
 
 
 
-  /* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
     .container {
         max-width: 960px;
     }
@@ -43,4 +49,4 @@
     .container {
         max-width: 540px;
     }
-} */
+}

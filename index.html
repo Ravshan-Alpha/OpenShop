@@ -34,9 +34,10 @@
                             <span class="iconify service__dropdown service__icon" data-icon="dashicons:arrow-down-alt2"
                                 data-rotate="180deg"></span>
                         </button>
-                        <ul class="dropdown-menu ms-auto service__menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">O'zbekcha</a></li>
-                            <li><a class="dropdown-item" href="#">Русский</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <div class="downline"></div>
+                            <li><a class="dropdown-item" href="#">Russian</a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,7 +62,26 @@
             </div>
         </div>
     </nav>
-    <header class="header"></header>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="">
+                        <img class="header__logo" src="images/LogoBlack.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-6">
+                    <form class="d-flex" role="search">
+                        <input class="search__box" type="search" placeholder="What are you looking for?" aria-label="Search">
+                        <button class="header__search" type="submit">
+                            <span class="iconify search__icon" data-icon="clarity:search-line"></span>
+                            SEARCH OUR STORE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
     <main class="main"></main>
     <footer class="footer"></footer>
 
