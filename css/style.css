@@ -138,18 +138,50 @@ form * {
     font-size: 14px;
     line-height: 19px;
     border: 1px solid var(--borderSearch);
+    padding-right: 165px;
+    padding-left: 10px;
 }
 .header__search {
     font-size: 14px;
     padding: 15px;
     background: var(--btnSearchBg);
     border: none;
-    color: var(--colorWhite)
+    color: var(--colorWhite);
+    width: 190px;
 }
 .search__icon {
     font-size: 23px;
     text-align: center;
     margin-bottom: 5px;
+}
+.search__box_m {
+    margin: auto;
+}
+/* ---------- */
+.header__menu {
+    margin-top: 35px;
+}
+.header__link {
+    display: block;
+    font-size: 15px;
+    position: relative;
+}
+.header__link:hover {
+    color: var(--colorBgText);
+}
+.header__link::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: var(--colorBgText);
+    transition: 300ms;
+}
+.header__link:hover::after {
+    width: 100%;
+    left: 0%;
 }
 /* --------------------NAV END-------------------- */
 /* --------------------HEADER END-------------------- */
